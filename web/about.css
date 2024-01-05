@@ -1,0 +1,110 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap');
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+.body {
+    position: relative;
+    text-align: center;
+    color: white;
+    font: 5em sans-serif;
+}
+
+/** about section **/
+
+.about {
+    background-color: #fff;
+    padding-top: 85px;
+}
+
+.about .titlepage {
+    text-align: left;
+    padding-bottom: 0;
+    max-width: 443px;
+    width: 100%;
+    float: right;
+}
+
+.about .titlepage h2 {
+    margin-bottom: 35px;
+}
+
+.about .titlepage p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    padding-bottom: 35px;
+}
+
+.about_img {
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.about_img figure {
+    margin: 0;
+}
+
+.about_img figure img {
+    width: 100%;
+    transition: all .5s;
+}
+
+.about_img figure img:hover {
+    transform: scale(1.2);
+}
+/** end about section **/
+
+/**  inner page css **/
+.back_re {
+    background-color: #0f1521;
+}
+.back_re .title {
+    text-align: center;
+}
+.back_re .title h2 {
+color:#fff;
+font-size: 40px;
+padding: 40px 0;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 35px;
+}
+.margin_0 {
+    margin:0 !important;
+}
+
+
+.inner_page .gallery {
+    padding-top: 90px;
+}
+.inner_page .blog {
+    margin-top: 90px;
+}
+
+
